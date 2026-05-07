@@ -1,0 +1,235 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #080707;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+#siteHeader {
+    background-image: url(chopper.webp);
+    background-size: cover;
+    background-position: center;
+    color: #50bbdc;
+    text-align: center;
+    padding: 60px 20px 40px;
+    border-bottom: 4px solid rgb(127, 40, 138);
+}
+
+#siteHeader h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cute {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #3d0042;
+    font-weight: bold;
+    line-height: 3;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+main div {
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+main h2 {
+    font-size: 1.7rem;
+    color: hsl(293, 55%, 35%);
+    text-align: left;
+    font-family: "Pirata One", cursive;
+}
+
+main div h2::before {
+    content: "◊ ";
+    color: hsl(293, 55%, 35%);
+}
+
+main h3 {
+    font-size: 1.15rem;
+    color: hsl(233, 56%, 45%);
+    text-align: left;
+}
+
+#chiSono {
+    background-color: #ffffff;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+#chiSono p:first-of-type {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #0dabcb;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border: 4px solid hsl(293, 55%, 35%);
+    border-radius: 50%;
+    float: left;
+    margin: 0 24px 12px 0;
+}
+
+#chiSono p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color: hsl(293, 55%, 35%);
+    
+}
+
+
+#competenze {
+    clear: both;
+}
+
+.skillList li:nth-child(odd) {
+    background-color: #e9c6eb;
+}
+
+.skillList li:nth-child(even) {
+    background-color: #f4e8f2;
+}
+
+.skillList li:first-child {
+    font-weight: bold;
+}
+
+.skillList li::before {
+    content: "★ ";
+    color: hsl(293, 55%, 35%);
+}
+
+.project:nth-of-type(odd) {
+    background-color: #d6dd4f;
+}
+
+.project:nth-of-type(even) {
+    background-color: #f4e8f2;
+}
+
+.project {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.project:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project:first-of-type h3::after {
+    content: "NEW";
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 12px;
+    background-color: hsl(238, 94%, 26%);
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+table caption {
+    font-weight: 600;
+}
+table,
+th,
+td {
+    border: 1px solid rgb(170, 130, 35);
+}
+
+label {
+    font-weight: bold;
+    color: rgb(102, 138, 40);
+}
+
+input,
+textarea,
+select {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+    width: 60%;
+    background-color: #df86cb;
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #ffffff;
+    font-style: italic;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #840b66;
+    color: #ffffff;
+}
+
+.consenso {
+    width: auto;
+}
+
+button {
+    color: #ffffff;
+    background-color: hsl(0, 72%, 52%);
+    font-weight: bold;
+    width: 30%;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    color: #0c9d29;
+    background-color: hsl(295, 100%, 12%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#siteFooter {
+    background-color: #2e1a27;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
